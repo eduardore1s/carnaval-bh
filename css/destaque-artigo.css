@@ -1,0 +1,21 @@
+/********************
+Componente destaque-artigo
+********************/
+.destaque-artigo {
+    background-color: #fcd414;
+    padding: 0.5em;
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+}
+
+.destaque-artigo > .titulo {
+    font-family: londrina solid,arial,sans-serif;
+    font-size: 30px;
+    color: #242424;
+    text-align: center; 
+}
+
+.destaque-artigo > .texto {
+    font-family: londrina solid,arial,sans-serif;
+}

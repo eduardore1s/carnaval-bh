@@ -1,0 +1,89 @@
+/********************
+Arquivo de estilos base do site
+  - Importação de folha de estilo de normalização (normalize.css)
+  - Importação de componentes do site
+  - Definição dos elementos estruturantes do site
+********************/
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+@import "menu-principal.css";
+@import "form-pesquisa.css";
+@import "destaque-artigo.css";
+@import "box-rodape.css";
+
+.cabecalho {
+    margin: auto;
+    background-color: #8f1515;
+    width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+	float: left;
+	margin: 1% 0 0 1%;
+  display: inline;
+}
+
+.conteudo {
+  margin: auto;
+  width: 100%;
+  background-color: #8f1515;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.conteudo p {
+    line-height: 20px;
+    text-align: justify;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: black;
+    font-size: 12px;
+    margin: auto;
+}
+
+.artigo-principal, article{
+  width: 97.2%;
+  background-color:white;
+  display: inline-block;
+  padding: 1em;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.informativo-destaque{
+  margin: auto;
+  width: 46.83%;
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 1em;
+  border-style: solid;
+  border-color: black;
+}
+
+.rodape {
+  margin: auto;
+  background-color:#fcd414;
+  width: 99.59%;
+  border-style: solid;
+  border-color: black;
+}
+
+.rodape a {
+  text-decoration: none;
+  font-family: londrina solid,arial,sans-serif;
+  font-size: 1.3125rem;
+  color: #242424; 
+  padding: 0.5em;
+}
+
+.copyright {
+  background-color:#fcd414;
+}

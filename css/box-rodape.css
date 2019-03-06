@@ -1,0 +1,17 @@
+/********************
+Componente box-rodape
+********************/
+.box-rodape {
+    display: inline-block;
+    width: 49%;
+    margin: auto;
+}
+
+.box-rodape > .conteudo {
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.box-rodape > .titulo {
+
+}

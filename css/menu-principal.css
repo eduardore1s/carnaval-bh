@@ -1,0 +1,25 @@
+/********************
+Componente menu-principal
+********************/
+.menu-principal {
+    background-color: #fcd414;
+    margin: auto;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    font-family: londrina solid,arial,sans-serif;
+    font-size: 1.3125rem;
+    color: #242424; 
+    padding: 0.5em;
+}
+
+.menu-principal > .lista {
+}
+
+.menu-principal > .lista > .item {
+    display: inline;
+}
